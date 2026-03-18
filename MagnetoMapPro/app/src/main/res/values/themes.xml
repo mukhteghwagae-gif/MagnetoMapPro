@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MagnetoMapPro" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/primary_cyan</item>
+        <item name="colorSecondary">@color/secondary_purple</item>
+        <item name="colorError">@color/accent_red</item>
+        <item name="android:colorBackground">@color/bg_dark</item>
+        <item name="colorSurface">@color/surface_navy</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+    </style>
+    
+    <style name="Theme.MagnetoMapPro.NoActionBar" parent="Theme.MagnetoMapPro">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
