@@ -1,0 +1,15 @@
+{
+  "variogram_model": "spherical",
+  "nugget_initial": 10.0,
+  "sill_initial": 500.0,
+  "range_initial_meters": 2.0,
+  "max_samples_in_system": 500,
+  "grid_resolution_meters": 0.2,
+  "max_grid_extent_meters": 50.0,
+  "update_interval_samples": 10,
+  "min_samples_for_kriging": 20,
+  "variogram_bins": 20,
+  "anisotropy_ratio": 1.0,
+  "lm_max_iterations": 100,
+  "lm_tolerance": 1e-6
+}
